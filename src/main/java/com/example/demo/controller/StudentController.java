@@ -67,5 +67,7 @@ public class StudentController {
         return studentService.getStudentByUUID(id);
     }
 
-
+/* mvn clean spring-boot:run
+*  mvn spring-boot:run
+*http://localhost:8080/swagger-ui/index.html*/
 }
